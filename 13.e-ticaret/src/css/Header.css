@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 50;
+    height: 100px;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid lightgray;
+    padding: 5px 10px;
+    outline: none;
+    margin-right: 25px;
+}
+
+.icon {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.icon:hover {
+    cursor: pointer;
+}
